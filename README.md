@@ -12,4 +12,4 @@
    
 4. Run tests
    ```bash
-   pytest test_cases\
+   pytest -s -v tests/ --alluredir=allure-reports
